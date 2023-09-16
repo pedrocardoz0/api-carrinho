@@ -68,6 +68,7 @@ func main() {
 		params := &openapi.CreateMessageParams{}
 		to := fmt.Sprintf("whatsapp:%v", phone)
 		params.SetTo(to)
+
 		params.SetFrom("whatsapp:+14155238886")
 		params.SetBody(body)
 
